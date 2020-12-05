@@ -1,0 +1,56 @@
+﻿{
+  "countries": [
+    {
+      "id": "Česko",
+      "INFO": {
+        "Obecné informace": {
+          "text": "Jazyk: čeština<br>Měna: koruna česká<br>"
+        },
+        "Kultura": { "text": "Tato země je proslavena svou laskou k pivu..." },
+        "Jídlo": { "text": "pivo, špekáčky" },
+        "Historie": { "text": "Byli zde Husité" },
+        "Jazyk": { "text": "Dobrý den --- Hello / Good day" }
+      },
+      "RIZIKA": {
+        "Nemoci": { "text": "základní běžné nemoci, rýma, kašel, covid-19" },
+        "Očkování": { "text": "proti pravým neštovicím, moru apod." },
+        "Přírodní vlivy": { "text": "nejsou zde velké nepříznivé vlivy" },
+        "Války": { "text": "demokracie, bez válečného konfliktu" },
+        "Politická situace": {
+          "text": "prezident: Zeman, svoboda slova, svoboda tisku, minimální cenzura"
+        }
+      }
+    },
+    {
+      "id": "Afghánistán",
+      "INFO": {
+        "Obecné informace": {
+          "text": "Jazyk: perština (darí), paštština, uzbečtina<br>Měna: koruna česká<br>Hl. město: Kábul"
+        },
+        "Kultura": { "text": "Tato země je proslavena..." },
+        "Jídlo": { "text": "špenát, mátový jogurt, sladká rýže" },
+        "Historie": { "text": "Vedou se zde války, Rudá armáda sem vtrhla" },
+        "Jazyk": { "text": "Dobrý den --- Xayrli kun" }
+      },
+      "RIZIKA": {
+        "Nemoci": { "text": "Amébóza, Břišní tyfus, Malárie" },
+        "Očkování": { "text": "proti malárii" },
+        "Přírodní vlivy": { "text": "Velmi suché počasí, časté písečné bouře" },
+        "Války": { "text": "Válka mezi USA a teroristy" },
+        "Politická situace": {
+          "text": "prezident: Ašraf Ghaní , velké špatnés"
+        }
+      }
+    }
+  ],
+  "traces": [
+    {
+      "name": "first trace",
+      "countries": ["cze", "afg"]
+    },
+    {
+      "name": "second trace",
+      "countries": ["cze"]
+    }
+  ]
+}
